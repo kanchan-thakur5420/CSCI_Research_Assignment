@@ -584,11 +584,13 @@ with open(RESULTS_PATH / "test_results.txt", "w") as file:
 # 17. DISPLAY COMPLETION MESSAGE
 # ================================================================
 
-print("Results saved in:", RESULTS_PATH)
-print("\nGenerated Files:")
-print("1. deepfake_cnn.keras")
-print("2. training_history.csv")
-print("3. accuracy_graph.png")
-print("4. loss_graph.png")
-print("5. predictions.csv")
-print("6. test_results.txt")
+print("\nDeepfake Detection - Experimental Results")
+print("----------------------------------------")
+print(f"Training samples: {len(train_paths)}")
+print(f"Validation samples: {len(val_paths)}")
+print(f"Testing samples: {len(test_paths)}")
+print(f"Final training accuracy: {history.history['accuracy'][-1]:.4f}")
+print(f"Final validation accuracy: {history.history['val_accuracy'][-1]:.4f}")
+print(f"Test accuracy: {test_accuracy:.4f}")
+print(f"Test loss: {test_loss:.4f}")
+print(f"Results directory: {RESULTS_PATH}")

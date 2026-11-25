@@ -1,0 +1,11 @@
+Image Path,Actual Label,Predicted Label,Probability of Real,Correct Prediction
+Dataset/Test/Real/real_1029.jpg,Real,Real,0.5267506241798401,True
+Dataset/Test/Real/real_720.jpg,Real,Real,0.5171296000480652,True
+Dataset/Test/Real/real_927.jpg,Real,Real,0.634849488735199,True
+Dataset/Test/Real/real_2319.jpg,Real,Real,0.5121467709541321,True
+Dataset/Test/Fake/fake_4747.jpg,Fake,Real,0.5451282858848572,False
+Dataset/Test/Fake/fake_2549.jpg,Fake,Real,0.5563783049583435,False
+Dataset/Test/Fake/fake_3183.jpg,Fake,Real,0.6335578560829163,False
+Dataset/Test/Real/real_1422.jpg,Real,Real,0.5173847675323486,True
+Dataset/Test/Fake/fake_849.jpg,Fake,Fake,0.41452115774154663,True
+Dataset/Test/Real/real_3441.jpg,Real,Real,0.6043626666069031,True

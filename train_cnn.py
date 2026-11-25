@@ -584,12 +584,7 @@ with open(RESULTS_PATH / "test_results.txt", "w") as file:
 # 17. DISPLAY COMPLETION MESSAGE
 # ================================================================
 
-print("\n========================================")
-print("CNN RESEARCH ASSIGNMENT COMPLETED")
-print("========================================")
-
 print("Results saved in:", RESULTS_PATH)
-
 print("\nGenerated Files:")
 print("1. deepfake_cnn.keras")
 print("2. training_history.csv")
